@@ -1,15 +1,12 @@
 'use client';
 import { motion } from 'framer-motion';
-import { Progress } from '@/components/ui/progress';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import {
   Activity,
   Flame,
-  Footprints,
   Timer,
   Trophy,
-  Target,
   Share2,
   Plus,
   Calendar,
