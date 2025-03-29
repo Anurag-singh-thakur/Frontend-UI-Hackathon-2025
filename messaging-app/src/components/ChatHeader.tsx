@@ -1,7 +1,7 @@
 'use client';
 import { EllipsisHorizontalIcon, PhoneIcon, VideoCameraIcon } from '@heroicons/react/24/outline';
 import { motion } from 'framer-motion';
-
+import Image from 'next/image';
 // Color palette for consistent theming
 export const COLORS = {
   primary: {
@@ -69,7 +69,7 @@ export default function ChatHeader({ name, status, avatar }: ChatHeaderProps) {
     `}>
       <div className="flex items-center space-x-3">
         <div className="relative">
-          <img
+          <Image
             src={avatar}
             alt={name}
             className="

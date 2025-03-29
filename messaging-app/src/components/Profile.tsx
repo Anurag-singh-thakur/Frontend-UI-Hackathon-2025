@@ -2,8 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { CameraIcon, PencilIcon } from '@heroicons/react/24/outline';
-import { COLORS } from './ChatHeader';
-
+import Image from 'next/image';
 export default function Profile() {
   return (
     <div className="mx-auto max-w-3xl p-6">
@@ -37,7 +36,7 @@ export default function Profile() {
           <div className="flex items-end space-x-5">
             <div className="-mt-12">
               <div className="relative inline-block">
-                <img
+                <Image
                   src="https://i.pravatar.cc/150?img=1"
                   alt="Profile"
                   className={`

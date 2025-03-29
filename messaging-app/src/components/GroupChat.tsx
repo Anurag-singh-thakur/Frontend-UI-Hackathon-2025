@@ -1,8 +1,7 @@
 'use client';
-
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { UserGroupIcon, PlusIcon } from '@heroicons/react/24/outline';
-import { COLORS } from './ChatHeader';
 
 interface GroupMember {
   id: string;
@@ -214,7 +213,7 @@ export default function GroupChat() {
                   className="flex items-center justify-between"
                 >
                   <div className="flex items-center space-x-3">
-                    <img 
+                    <Image 
                       src={member.avatar} 
                       alt={member.name} 
                       className="h-8 w-8 rounded-full object-cover"

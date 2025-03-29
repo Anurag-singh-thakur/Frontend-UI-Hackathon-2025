@@ -1,5 +1,4 @@
 import Sidebar from '@/components/Sidebar';
-import ChatList from '@/components/Chatlist';
 import ChatHeader from '@/components/ChatHeader';
 import MessageBubble from '@/components/MessageBubble';
 import ChatInput from '@/components/ChatInput';
