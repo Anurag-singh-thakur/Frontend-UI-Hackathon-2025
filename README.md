@@ -5,7 +5,7 @@ Welcome to the project repository! Below are the live links for the various user
 ## Live Links
 
 ### Fitness Application
-- [Fitness UI](https://github.com/Anurag-singh-thakur/)
+- [Fitness UI](https://frontend-ui-hackathon-2025.vercel.app/)
 
 ### Game Application
 - [Game UI](https://frontend-ui-hackathon-2025-c2i8.vercel.app/)
