@@ -36,7 +36,7 @@ interface WordGridProps {
   gameLost: boolean;
 }
 
-export default function WordGrid({ word, guesses, currentGuess, gameWon, gameLost }: WordGridProps) {
+export default function WordGrid({ word, guesses, currentGuess }: WordGridProps) {
   const emptyRows = 6 - guesses.length - 1;
   
   return (

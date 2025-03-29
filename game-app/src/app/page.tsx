@@ -247,11 +247,13 @@ export default function Home() {
                   🎉 Congratulations! You solved the puzzle.
                 </span>
               )}
-              {gameLost && (
-                <span className="text-red-600">
-                  The word was "{WORD_OF_THE_DAY}". Better luck next time!
-                </span>
-              )}
+            
+       {gameLost && (
+         <span className="text-red-600">
+          The word was &quot;{WORD_OF_THE_DAY}&quot;. Better luck next time!
+     </span>
+      )}
+
               {!gameWon && !gameLost && "Here's how you're doing so far"}
             </DialogDescription>
           </DialogHeader>
